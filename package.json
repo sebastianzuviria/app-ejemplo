@@ -1,0 +1,24 @@
+{
+  "name": "app-ejemplo",
+  "version": "1.0.0",
+  "description": "App de ejemplo parte0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szuviria/app-ejemplo.git"
+  },
+  "author": "Sebastian Zuviria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szuviria/app-ejemplo/issues"
+  },
+  "homepage": "https://github.com/szuviria/app-ejemplo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.2"
+  }
+}
